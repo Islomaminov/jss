@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css" />
+        <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css" rel="stylesheet" />
+        <title>Vanilla SPA Router</title>
+        <style>
+            
+        </style>
+    </head>
+
+    <body>
+        <div id="root">
+            <nav id="main-nav" class="sidebar">
+                <a class="jkl" href="/" onclick="route()">Home</a>
+                <a href="/about" onclick="route()">About</a>
+                <a href="/lorem" onclick="route()">Lorem</a>
+            </nav>
+            <div id="main-page"></div>
+        </div>
+
+        <script src="js/router.js"></script>
+    </body>
+</html>
